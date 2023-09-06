@@ -1,3 +1,5 @@
+import { Shape } from "./shape.js";
+
 interface Square extends Shape{
     sideLen: number,
     computeArea:() => number

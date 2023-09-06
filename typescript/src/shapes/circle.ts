@@ -1,3 +1,5 @@
+import { Shape } from "./shape.js";
+
 interface Circle extends Shape{
     radius: number,
     computeArea:() => number
