@@ -1,5 +1,5 @@
 interface Shape {
 
-    computeArea: ()=>{}
+    computeArea: ()=>number
     
 }
